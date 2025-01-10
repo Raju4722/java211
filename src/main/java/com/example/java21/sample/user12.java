@@ -4,12 +4,12 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity
-public class user {
+public class user12 {
 	@Id
 	private int id;
 	private int custid;
 
-	public user(int i, int j) {
+	public user12(int i, int j) {
 		this.id = i;
 		this.custid = j;
 	}

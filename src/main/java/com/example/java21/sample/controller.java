@@ -16,7 +16,7 @@ public class controller {
 	}
 	private Service serv;
   @GetMapping("/hello")
-  public List<user> gettt() {
+  public List<user12> gettt() {
 	  return serv.getall();
   }
 }
