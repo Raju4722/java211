@@ -5,6 +5,10 @@ import jakarta.persistence.Id;
 
 @Entity
 public class user12 {
+	public user12() {
+		super();
+	}
+
 	@Id
 	private int id;
 	private int custid;
